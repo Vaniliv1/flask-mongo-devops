@@ -1,0 +1,8 @@
+POST http://localhost:5000/message
+Content-Type: application/json
+
+{"text": "Hello DevOps!"}
+
+###
+
+GET http://localhost:5000/messages
