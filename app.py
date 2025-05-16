@@ -15,7 +15,7 @@ def add_message():
     data = request.json
     if "text" in data:
         messages.insert_one({"text": data["text"]})
-        return jsonify({"status": "Message added"}), 201
+        return jsonify({"status": "Message successfully added"}), 201
     return jsonify({"error": "Text required"}), 400
 
 @app.route('/messages', methods=['GET'])
