@@ -1,8 +1,8 @@
-POST http://localhost:5000/message
+POST https://flask-mongo-devops.onrender.com/message
 Content-Type: application/json
 
-{"text": "Hello DevOps!"}
+{"text": "Test message"}
 
 ###
 
-GET http://localhost:5000/messages
+GET https://flask-mongo-devops.onrender.com/messages
